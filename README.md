@@ -25,5 +25,7 @@ Make a translation between Letter or non-alphanumeric caracter to a number to co
 ADMYV/%- : 22698***
 ```
 
-**Wildix** You just need to have 5 number only.
+### Wildix case
+
+You just need to know 5 letter / number only.
 
