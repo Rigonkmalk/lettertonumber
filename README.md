@@ -16,7 +16,7 @@ apt install perl
 brew install perl
 ```
 
-###Windows
+### Windows
 [Perl Windows installer](https://www.perl.org/get.html#win32)
 
 ## Main objective
