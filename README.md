@@ -4,20 +4,20 @@
 
 For usage, install perl in the lastest version
 
-Debian / Ubuntu
+### Debian / Ubuntu
 
 ```bash
 apt install perl
 ```
 
-MacOS
+### MacOS
 
 ```bash
 brew install perl
 ```
 
-Windows
-[Windows](https://www.perl.org/get.html#win32)
+###Windows
+[Perl Windows installer](https://www.perl.org/get.html#win32)
 
 ## Main objective
 
