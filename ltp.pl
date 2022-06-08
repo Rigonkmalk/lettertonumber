@@ -30,7 +30,7 @@ $dict{$_} = '3' for qw(d e f 3);
 $dict{$_} = '4' for qw(g h i 4);
 $dict{$_} = '5' for qw(j k l 5);
 $dict{$_} = '6' for qw(m n o 6);
-$dict{$_} = '7' for qw(p q r s);
+$dict{$_} = '7' for qw(p q r s 7);
 $dict{$_} = '8' for qw(t u v 8);
 $dict{$_} = '9' for qw(w x y z 9);
 $dict{$_} = '*' for qw(@ # $ % ^ * - _ + =);
@@ -65,6 +65,7 @@ sub output_display () {
 get_options();
 my @text = split ("",$o_textinput);
 ###print Dumper(@text);
+printf "Do not take care of %% on the end.\n";
 foreach (@text) {
     switch ($_) {
         case (\%dict) {
