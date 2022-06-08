@@ -2,11 +2,22 @@
 
 ## Installation
 
-For usage, install perl in the last version 
+For usage, install perl in the lastest version
 
+Debian / Ubuntu
+
+```bash
+apt install perl
 ```
-https://www.perl.org/get.html
+
+MacOS
+
+```bash
+brew install perl
 ```
+
+Windows
+[Windows](https://www.perl.org/get.html#win32)
 
 ## Main objective
 
