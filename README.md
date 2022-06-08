@@ -1,7 +1,16 @@
-## Letter To Number (LTP)
+# Letter To Number (LTP)
 
-### Main objective
+## Installation
 
+For usage, install perl in the last version 
+
+```
+https://www.perl.org/get.html
+```
+
+## Main objective
+
+We want to convert Letter for a password (WEB password) to Number (following Phone keyboard preset).
 
 ```
 ---------------
