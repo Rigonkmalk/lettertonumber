@@ -1,4 +1,4 @@
-## Letter To Number (LTR)
+## Letter To Number (LTP)
 
 ### Main objective
 

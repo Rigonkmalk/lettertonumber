@@ -1,10 +1,10 @@
 # Perl check Skeleton
 #!/usr/bin/perl -w 
-######################### check_snmp_name.pl #################
+######################### ltp.pl #################
 my $Version='0.1';
-my $check_name='check_snmp_name.pl';
-# Date : Aug 16 2017
-# Author  : Vincent FRICOU (vincent at fricouv dot eu)
+my $check_name='ltp.pl';
+# Date : Jun 8 2022
+# Author  : Paul AZEMA (rigonkmalk at gmail dot com)
 # Generic skeleton for perl check.
 ################################################################
 use strict;
@@ -37,13 +37,13 @@ $dict{$_} = '*' for qw(@ # $ % ^ * - _ + =);
 
 ### Function declaration
 sub usage {
-   print "\nSNMP '.$check_name.' for Nagios. Version ",$Version,"\n";
-   print "GPL Licence - Vincent FRICOU\n\n";
+   print "\nLetter To Number '.$check_name.' for Wildix. Version ",$Version,"\n";
+   print "GPL Licence - Paul AZEMA\n\n";
    print <<EOT;
 -h, --help
    print this help message
 -i, --input=HOST
-   name or IP address of host to check
+   char or number to convert
 EOT
    exit $reverse_exit_code{Unknown};
 }
