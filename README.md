@@ -42,7 +42,7 @@ Make a translation between Letter or non-alphanumeric caracter to a number to co
 ### Example 
 
 ```
-ADMYV/%- : 22698***
+AD1MYV/%- : 221698***
 ```
 
 ### Wildix case
